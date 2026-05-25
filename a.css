@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+img{
+    padding: 30px;
+}
+
+.sedans{
+    height: 400px;
+    width: 250px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px;
+}
+
+.suvs{
+    height: 400px;
+    width: 250px;
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 10px;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    margin: -20px 30px;
+    border: 0 solid;
+}
+
+.luxury{
+    height: 400px;
+    width: 250px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    body{
+        padding: 10px;
+        height: 150vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sedans{
+        height: 600px;
+        width: 300px;
+    }
+    .suvs{
+        height: 600px;
+        width: 300px;
+    }
+    .luxury{
+        height: 600px;
+        width: 300px;
+    }
+}
